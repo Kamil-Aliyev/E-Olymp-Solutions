@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int k,n,a;
+int main(int argc, char *argv[])
+{
+  scanf("%d%d",&n, &k) ;
+  a=  k/n;
+  printf ("%d",a);	
+  return 0;
+
+}

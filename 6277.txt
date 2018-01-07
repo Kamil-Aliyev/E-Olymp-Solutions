@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+
+double n,k;
+int main()
+{
+    cin >> n;
+    
+    k=(n-1);
+
+    cout << k;
+    
+    
+    return 0;
+}

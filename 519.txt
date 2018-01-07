@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+long long a,b;
+int main()
+{
+    cin >> a;
+    cin >> b;
+
+    cout << a*a + b*b << endl;
+    return 0;
+}

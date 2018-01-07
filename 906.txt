@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int n,k;
+int main()
+{
+    cin >> n;
+    k=n/100;
+    
+    cout<< n/100 * ((n-100*k) / 10) * (n % 10) <<endl;
+    
+    
+    return 0;
+}

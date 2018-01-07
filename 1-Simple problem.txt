@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int n,a,b;
+
+int main() {
+	// your code goes here
+	cin>>n;
+	
+	a=n/10;
+	
+	b=n%10;
+	
+	cout<<a<<' '<<b;
+	
+	return 0;
+	
+}
