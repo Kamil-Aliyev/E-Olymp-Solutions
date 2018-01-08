@@ -1,0 +1,47 @@
+#include <iostream>
+
+using namespace std;
+
+int t,n,a,b;
+int i,j,k,flag;
+static int arr[35];
+
+int main()
+{
+  cin>>t;
+  
+    for(i=0;i<t;i++){
+      
+      cin >> n;
+
+      for(int l=0;l<n;l++){
+        cin>>a >> b;
+        
+        for(a;a<=b;a++){
+          arr[a]++;
+        }
+        
+      }
+      
+      for(k=0;k<35;k++){
+        if(arr[k]==n){
+          flag =1;
+          arr[k]=0;
+        }
+        arr[k]=0;
+      }
+      
+      if(flag==1){
+        cout << "YES" << endl;
+      }
+      else{
+       cout << "NO" << endl;
+      }
+      
+      flag=0;
+    }
+  
+  
+
+    return 0;
+}
